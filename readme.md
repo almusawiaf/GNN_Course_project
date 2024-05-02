@@ -53,4 +53,4 @@ AIM: Given the generated data, this file assemble all the data and feed them to 
 ## Acknowledgement
 
 Special thanks are extended to [Musaddiq Lodi](https://github.com/lodimk2) for his contributions to the diagnosis removal process and the conversion of clinical notes into embedding representations.
-Also, sincere thanks extended to dr. Pratip Rana for his assistance and for Professor Thang N. Dinh for offering this significant course.
+Also, sincere thanks extended to Dr. Pratip Rana, Dr. Preetam Ghosh for their assistance and for Professor Thang N. Dinh for offering this significant course.
