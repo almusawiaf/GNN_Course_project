@@ -14,20 +14,20 @@ Several models have been used within the project. Please create a virtual enviro
 
 The project has two major programming section:
 ### 1. Notes Embedding
-    In this folder, you shall find several folders referring to the sequence of steps to be run to extract the final embedding out of the clinical notes given in the MIMIC-III dataset.
+In this folder, you shall find several folders referring to the sequence of steps to be run to extract the final embedding out of the clinical notes given in the MIMIC-III dataset.
 
 #### a. Diagnoses Removal
-    Aim: identify diagnoses within the text and replace them with 'X' character. Several models are provided. You can target z_spaCy_NER.ipynb
+Aim: identify diagnoses within the text and replace them with 'X' character. Several models are provided. You can target z_spaCy_NER.ipynb
 
 #### b. Embedding Extraction
-    Aim: Use transformers to convert the clinical text to embedding representation.
-    You can target (clinical_note_embeddings.ipynb)
+Aim: Use transformers to convert the clinical text to embedding representation.
+You can target (clinical_note_embeddings.ipynb)
 
 #### c. Grouping by Patients
-    Aim: Herein, we group the several embedding of one patients into one. We consider a normalized version. 
+Aim: Herein, we group the several embedding of one patients into one. We consider a normalized version. 
 
 #### d. Adding embedding for other nodes
-    Aim: herein, we add two more numerical representation to the last embedding, to add the other nodes and to distinguish them from each other.
+Aim: herein, we add two more numerical representation to the last embedding, to add the other nodes and to distinguish them from each other.
 
 ### 2. The main pipeline
 
